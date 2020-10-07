@@ -13,7 +13,7 @@ export default function App() {
 
 
   const getAddress = () => {
-    const url = 'http://www.mapquestapi.com/geocoding/v1/address?key='+KEY+'&location''='+ Address ;
+    const url = 'http://www.mapquestapi.com/geocoding/v1/address?key='+KEY+'&location='+ Address ;
     fetch(url)
     .then((response) => response.json())
     .then((responseJson) => { 
